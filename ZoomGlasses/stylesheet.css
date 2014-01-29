@@ -1,0 +1,49 @@
+body {
+   background-color:#77B5F2;
+}
+#logo {
+    height: 270px;
+    width:500px;
+    position: relative;
+    top: 40px;
+    left: 70px;
+    display: inline-block;
+    
+}
+#logo1 {
+    z-index:-1;
+    margin-bottom:-10px;
+}
+#title {
+    text-align:center;
+    font-size:87px;
+    color:white;
+    font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+    position:relative;
+    top:-280px;
+}
+#slogan {
+    width:510px;
+    height:270px;
+    position:relative;
+    display:inline-block;
+    left:100px;
+    top:-300px;
+}
+#slog {
+    position:relative;
+    color:#444BCC;
+    font-weight:bold;
+    padding:10px;
+    font-size:35px;
+    
+}
+#menu {
+    position:relative;
+    background-color:red;
+    width:200px;
+    height: 200px;
+}
+h1 {
+    text-align:center;
+}
