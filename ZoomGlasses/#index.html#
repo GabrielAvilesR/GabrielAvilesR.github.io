@@ -10,8 +10,6 @@
     <h6 id="title" > ZoomGlasses </h6>
   </div>
   <div id="slogan"><p id="slog">"HD, 3D, Eagle vision, nothing will be better than ZoomGlasses on any aspect in the present or in the future."</p></div>
-  <div class="button" style="background-color:red;heigth:200px;width: 200px;"></div>
-  <div class="button"></div>
-  <div class="button"></div>
+  <div id="menu"></div>
 </body>
 </html>
