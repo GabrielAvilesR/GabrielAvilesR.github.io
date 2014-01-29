@@ -5,20 +5,9 @@
 <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
 </head>
 <body>
- <div id="logo" >
-    <img id="logo1" src="img/bglasses.jpg"/>
-    <h6 id="title" > ZoomGlasses </h6>
-  </div>
-	<h1 class="secondtitle">PROBLEM</h1>
-	<div id="minimenu">
-	 <a href="index.html"> <div class="minibutton"><p>Home</p></div></a>
-	 <a href="problem-html"> <div class="minibutton" id="presentbutton"><p>Problem</p></div></a>
-	 <a href="design.html"> <div class="minibutton"><p>Design</p></div></a>
-	 <a href="characteristics.html"> <div class="minibutton"><p>Characteristics</p></div></a>
-	</div>
+	<h1 class="secondtitle">Problem</h1>
 	<p class="contenido">The problem that we found and that we are trying to solution are the visual problems, not the know problems (myopia, astigmatism or farsightedness), we are giving a solution to a common problem that we usually dont care about it, it is that we are not able to see at far distances, so that why ZoomGlasses appeared.</p>
 	<img class="imagen" src="http://img.actualidadfutbol.com/wp-content/uploads/2012/04/Santiago_Bernabeu.jpg"/>
 	<img class="imagen" src="http://lamula.pe/media/uploads/1b92dfbd-06ac-4832-a42c-08bea380f08f.jpg"/>
- <div id="footer"><p id="ifooter">ZoomGlasses. Tec de Monterrey. Fundamentos del Dise&ntilde;o.<a class="links" href="aboutus.html"> About Us.</a></div>
 </body>
 </html>
