@@ -1,0 +1,97 @@
+body {
+    background-color:#223769;
+}
+#tdiv {
+    position:relative;
+    left:470px;
+    width:400px;
+    
+}
+#title {
+    position:relative;
+    font-family:"Lucida Console", Monaco, monospace;
+    text-align:center;
+    display:block;
+    font-size: 80px;
+    width:400px;
+}
+
+#secondtitle {
+    position:relative;
+    top:-40px;
+    text-align:center;
+    width:400px;
+    font-size:30px;
+    display:block;
+    font-family:"Lucida Console", Monaco, monospace;
+}
+#slogan {
+    position:relative;
+    bottom:70px;
+    width:400px;
+    display:block;
+    text-align:center;
+    font-family:"Lucida Console", Monaco, monospace;
+}
+.tube {
+    color:white;
+    border: 8px solid #C92020;
+    border-radius:15px;
+    background-color:#C92020;
+}
+.ctube {
+    color:red;
+    font-weight:bold;
+}
+.subtitle{
+    position:relative;
+    font-size:25px;
+    text-align:center;
+    font-family:"Courier New", Courier, monospace;
+}
+.content {
+    postion:relative;
+    font-size:20px;
+    font-family:"Courier New", Courier, monospace;
+    font-weight:bold;
+    padding:0px 100px 0px 100px;
+    text-align:center;
+
+    
+}
+.cimg {
+    width:500px;
+    height:270px;
+    position:relative;
+    display:inline-block;
+    margin:50px;
+}
+.img {
+    width:500px;
+    height:270px;
+    border: 5px solid black;
+    margin-bottom:-50px;
+}
+.imgfooter {
+    position:relative;
+    width:150px;
+    background-color:#DD2E17;
+    padding:3px;
+    bottom:20px;
+    left:170px;
+    border-radius:10px;
+    text-align:center;
+    font-size:15px;
+    font-family:"Courier New", Courier, monospace;
+    font-weight:bold;
+    
+}
+#youtube {
+    position:relative;
+    background-color:white;
+    top:-50px;
+    left:45px;
+}
+#youtube:hover {
+    background-color:#C92020;
+}
