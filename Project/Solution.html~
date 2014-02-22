@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>JaliscoSinInfluenza | KickStarter</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/micss.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Poller+One|Lily+Script+One|Mystery+Quest|Gabriela' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+	<div class="container-fluid">
+		<div class="row" >
+			<div class="col-md-12">
+				<nav class="navbar navbar-default" role="navigation">
+  				<div class="container-fluid" id="header">
+    					<!-- Brand and toggle get grouped for better mobile display -->
+   					 <div class="navbar-header">
+     						 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        					<span class="sr-only">Toggle navigation</span>
+        					<span class="icon-bar"></span>
+        					<span class="icon-bar"></span>
+        					<span class="icon-bar"></span>
+      						</button>
+      						<a class="navbar-brand" href="index.html"><span id="brand">Jalisco sin Influenza </a>
+    					</div>
+
+    					<!-- Collect the nav links, forms, and other content for toggling -->
+   					 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      						<ul class="nav navbar-nav">
+							<li><a href="index.html"><span class="header">Home</span></a></li>
+        						<li class="dropdown">
+								<a href="Problem.html" class="dropdown-toggle" data-toggle="dropdown"><span class="header">Problem</a>
+								<ul class="dropdown-menu">
+									<li><a href="Problem.html#Problem">The Problem</a></li>
+									<li><a href="Problem.html#Solution">Our Solution</a></li>
+								</ul>
+							</li>
+							<li class="dropdown">
+								<a href="Why.html" class="dropdown-toggle" data-toggle="dropdown"><span class="header present"> Why?</a>
+								<ul class="dropdown-menu">
+									<li><a href="Why.html#Context">Context</a></li>
+									<li><a href="Why.html#Audience">Audience</a></li>
+								</ul>
+							</li>
+							<li class="dropdown">
+								<a href="Solution.html" class="dropdown-toggle" data-toggle="dropdown"> <span class="header"> Solution</a>
+								<ul class="dropdown-menu">
+								<li><a href="Solution.html#Interface">Interface</a></li>
+								<li><a href="Solution.html#Symptoms">Symptoms Recognition</a></li>
+								<li><a href="Solution.html#Locations">Where to go?</a></li>
+								<li><a href="Solution.html#Prevention">What to do?</a></li>
+								</ul>
+							</li>
+							<li><a href="http://jaliscosininfluenza.tumblr.com/"><span class="header"> Blog </a></li>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="header"> News </a>
+								<ul class="dropdown-menu">
+									<li><a href="http://www.eluniversal.com.mx/estados/2014/influenza-jalisco-989463.html">84 Deaths because of the Swine Flu</a></li>
+									<li><a href="http://www.informador.com.mx/jalisco/2014/513802/6/secretaria-de-salud-reporta-679-casos-de-influenza-en-jalisco.htm">679 cases of the Swine Flu in Jalisco</a></li>
+									<li><a href="http://www.sexenio.com.mx/jalisco/articulo.php?id=2957">The SSJ asks for awareness about the Swine Flue</a></li>
+								</ul>
+							</li>
+      						</ul>
+    					</div><!-- /.navbar-collapse -->
+  				</div><!-- /.container-fluid -->
+				</nav>
+
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-8 col-md-offset-2">
+				<h1 id="title">Jalisco Sin Influenza</h1>
+				<h6 id="slogan">Buscando informar a la población de Jalisco sobre la Influencia, su presencia en el momento y como prevenir sus graves consecuencias. </h6>
+			</div>
+			<div class="col-md-2"><img src="img/noflu.jpg" id="titlephoto"/></div>
+		</div>
+		<div class="row">
+			<div class="col-md-8">
+				<h1 class="subtitle" id="Interface">Interface</h1>
+				<p class="texto">Our app is going to be an informative app, but to avoid making it a very boring app that no one wants it will have images and atractive colors, it will work with google maps API to find the hospitals. </p>
+			</div>
+			<div class="col-md-4">
+				<img class="img" src="img/app.jpg" />
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-8">
+				<h1 class="subtitle" id="Symptoms">Symptoms Recognition</h1>
+				<p class="texto2">Flu symptoms include:
+    				<li class="texto2">A 100°F or higher fever or feeling feverish (not everyone with the flu has a fever)</li>
+    				<li class="texto2">A cough and/or sore throat</li>
+    				<li class="texto2">A runny or stuffy nose</li>
+    				<li class="texto2">Headaches and/or body aches</li>
+    				<li class="texto2">Chills</li>
+    				<li class="texto2">Fatigue</li>
+   					<li class="texto2">Nausea, vomiting, and/or diarrhea (most common in children)</li></p>
+			</div>
+			<div class="col-md-4">
+				<img class="img" src="img/symptoms.jpg" />
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-8">
+				<h1 class="subtitle" id="Locations">Where to go?</h1>
+				<p class="texto">If  you feel bad inmediatly go to the nearest hospital to your location.</p>
+			</div>
+			<div class="col-md-4">
+				<img class="img" src="img/hospital.png" />
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-8">
+				<h1 class="subtitle" id="Prevention">What to do?</h1>
+				<p class="texto2">Seek medical attention immediately if you experience any of the following:
+    				<li class="texto2">Difficulty breathing or shortness of breath</li>
+    				<li class="texto2">Purple or blue discoloration of the lips</li>
+    				<li class="texto2">Pain or pressure in the chest or abdomen</li>
+    				<li class="texto2">Sudden dizziness</li>
+    				<li class="texto2">Confusion</li>
+    				<li class="texto2">Severe or persistent vomiting</li>
+    				<li class="texto2">Seizures</li>
+    				<li class="texto2">Flu-like symptoms that improve but then return with fever and worse cough</li></p>
+			</div>
+			<div class="col-md-4">
+				<img class="img" src="img/prevention.jpg" />
+			</div>
+		</div>
+	</div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

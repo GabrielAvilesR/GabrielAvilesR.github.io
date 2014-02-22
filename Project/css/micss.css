@@ -1,0 +1,74 @@
+/* Gabriel's CSS */
+body {
+	background-color: #CAD1DF;
+	
+}
+#header {
+	background-color:#5FC2F3;
+	border:3px #5FC2F3 solid;
+}
+#brand{
+	color:black;
+	font-weight: bold;
+	font-family:'Poller One', cursive;
+	font-size: 20px;
+	border-right: 2px black solid;
+	padding-right:10px;
+}
+.header {
+	color:black;
+	font-weight:bold;
+}
+.header:hover{
+	border-bottom: 1px black solid;
+}
+.present {
+	font-family:'Gabriela', serif;
+	font-size: 15px;
+	border-bottom:1px black solid;
+}
+#title{
+	text-align:center;
+	font-size:50px;
+	font-weight:bolder;
+	font-family:'Poller One', cursive;
+	display:block;
+}
+#slogan{
+	display:block;
+	text-align:center;
+	font-family: 'Gabriela', serif;
+	font-size: 20px;
+}
+#titlephoto{
+	position:relative;
+	right:40px;
+	border:2px solid;
+	border-radius:100%;
+}
+.subtitle{
+	font-family:'Gabriela', serif;
+	font-size: 40px;
+	font-weight:bolder;
+	text-align: center;
+}
+.texto{
+	font-family: Verdana;
+	font-weight:bold;
+	font-size:25px;
+	margin-bottom:50px;
+}
+.texto2{
+	font-family: Verdana;
+	font-weight:bold;
+	font-size:25px;
+	margin-bottom:10px;
+}
+.img{
+	position:relative;
+	top: 20px;
+	width:400px;
+	height: 350px;
+	border: 1px black solid;
+	border-radius: 50px;
+}
