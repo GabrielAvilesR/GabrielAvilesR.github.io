@@ -1,0 +1,18 @@
+#headerdiv{
+	background-color: #C1EAFF;
+	border: 1px solid #C1EAFF;
+	border-radius: 50px;
+}
+#header{
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 50px;
+	text-align:center;
+	font-weight:bolder;
+}
+#background{
+	background-color: #AFB2B4;
+	border: 1px solid #AFB2B4;
+	border-radius: 20px;
+	position:relative;
+	top: 50px;
+}
