@@ -16,3 +16,32 @@
 	position:relative;
 	top: 50px;
 }
+#title{
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 30px;
+	text-align:center;
+	font-weight:bolder;
+}
+.button{
+	background-color: #48D8F5;
+	padding: 20px;
+	color: #627174;
+	text-align: center;
+	font-size: 30px;
+	position:relative;
+	margin: 20px;
+	width: 250px;
+}
+.button:hover{
+	background-color:#21AECB;
+}
+#present{
+	background-color:#21AECB;
+	text-decoration:underline; 
+	font-weight: bold;
+}
+#map_canvas{
+	width: 800px;
+    height: 400px;
+    margin-bottom:50px;
+}
