@@ -72,3 +72,17 @@ body {
 	border: 1px black solid;
 	border-radius: 50px;
 }
+.personabtn{
+	text-align:center;
+	text-decoration:none;
+	background-color:#F7C216;
+	width:400px;
+	margin: 20px;
+	font-size:50px;
+	font-weight:bold;
+	font-family:Verdana;
+	color: #5FC4D1;
+	border: 2px solid black;
+	border-radius: 50px;
+	
+}
