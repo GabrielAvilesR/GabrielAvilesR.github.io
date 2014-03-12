@@ -71,8 +71,8 @@
 									<li><a href="http://www.sexenio.com.mx/jalisco/articulo.php?id=2957">The SSJ asks for awareness about the Swine Flue</a></li>
 								</ul>
 							</li>
-							<li><a href="Persona.html"><span class="header present"> Personas </a></li>
-							<li><a href="Interview.html"><span class="header"> Interviews</a></li>
+							<li><a href="Persona.html"><span class="header"> Personas </a></li>
+							<li><a href="Interview.html"><span class="header present"> Interviews</a></li>
       						</ul>
     					</div><!-- /.navbar-collapse -->
   				</div><!-- /.container-fluid -->
@@ -88,9 +88,9 @@
 			<div class="col-md-2"><img src="img/noflu.jpg" id="titlephoto"/></div>
 		</div>
 		<div class="row">
-			<div class="col-md-3 personabtn"><a href="img/Gabriel.png">Gabriel Avilés</a></div>
-			<div class="col-md-3 personabtn"><a href="img/Marco.png">Marco Bernal</a></div>
-			<div class="col-md-3 personabtn"><a href="img/Paco.jpg">Francisco López</a></div>
+			<div class="col-md-3 personabtn"><a href="pdf/EntrevistaaunExperto.pdf">Interview to an Expert</a></div>
+			<div class="col-md-3 personabtn"><a href="pdf/Entrevistaaun">Interview to one User</a></div>
+			<div class="col-md-3 personabtn"><a href="#">Benchmarking Activity</a></div>
 		</div>
 
 	</div>
