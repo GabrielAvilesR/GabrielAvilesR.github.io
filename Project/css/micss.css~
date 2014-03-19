@@ -77,8 +77,8 @@ body {
 	text-decoration:none;
 	background-color:#F7C216;
 	width:400px;
-	height:200px;
-	padding:50px;
+	/*height:200px;
+	padding:50px;*/
 	margin: 20px;
 	font-size:50px;
 	font-weight:bold;
@@ -88,3 +88,4 @@ body {
 	border-radius: 50px;
 	
 }
+

@@ -4,8 +4,8 @@ body {
 	
 }
 #header {
-	background-color:#5FC2F3;
-	border:3px #5FC2F3 solid;
+	font-weight:bold;
+	
 }
 #brand{
 	color:black;
@@ -88,3 +88,4 @@ body {
 	border-radius: 50px;
 	
 }
+
