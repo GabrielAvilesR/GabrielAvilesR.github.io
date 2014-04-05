@@ -26,19 +26,9 @@ body{
 #subtituloform{
 	
 }
-.modalcss{
-	background-color: #FF741D;
-	border-color: #FF741D;
-}
-.modalcss:hover{
-	background-color: #FF741D;
-	border-color: #FF741D;
-}
-.modalcss:visited{
-	background-color: #FF741D;
-	border-color: #FF741D;
-}
-.modalcss:active{
-	background-color: #FF741D;
-	border-color: #FF741D;
+
+.subform{
+	text-decoration:none;
+	color:white;
+	
 }
