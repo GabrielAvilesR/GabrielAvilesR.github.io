@@ -1,6 +1,6 @@
 
 body{
-	background-color:#FFFFFF;
+	background-color:#9ED7DE;
 }
 #mediform{
 	background-color: #FF741D;
@@ -21,10 +21,15 @@ body{
 }
 
 #tituloform{
-	
+	text-align:center;
+	font-family:Verdana;
+	font-weight:bolder;
+	font-size:30px
 }
 #subtituloform{
-	
+	font-size:25px;
+	font-family:Verdana;
+	font-weight:bold;
 }
 
 .subform{

@@ -5,14 +5,17 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Tru-Health</title>
+    <title>TRU-HEALTH</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 	<link href="css/micss.css" rel="stylesheet">
-	<link href='http://fonts.googleapis.com/css?family=Sonsie+One' rel='stylesheet' type='text/css'>
 	
-	
+	<?php
+		if($_GET["run"]){
+			exec("/cande/main.sh");
+		}
+	?>
 	<script src="js/countdown_v4.3/countdown.js"></script>
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -44,7 +47,7 @@
     			</div>
     			<div class="row">
     				<div id="footer">
-    					<p>Esta es solo un demo de lo que TRU-HEALTH quiere ofrecerle. Visite <a href="profile.html" >TRU-HEALTH Personal Record </a> para experimentar la experiencia completa que queremos que usted disfrute. Tru-Health buscara guardar registros de sus actividades que registre para darle el estado de su salud y tips para mejorar este.</p>
+    					<p>Esta es solo un <a href="?run=true">Yolo </a>demo de lo que TRU-HEALTH quiere ofrecerle. Visite <a href="profile.html" >TRU-HEALTH Personal Record </a> para experimentar la experiencia completa que queremos que usted disfrute. Tru-Health buscara guardar registros de sus actividades que registre para darle el estado de su salud y tips para mejorar este.</p>
     				</div>
     			</div>
     		</div>
