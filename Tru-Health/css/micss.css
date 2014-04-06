@@ -1,6 +1,6 @@
 
 body{
-	background-color:#FFD8D9;
+	background-color:#FFFFFF;
 }
 #mediform{
 	background-color: #FF741D;
@@ -12,9 +12,9 @@ body{
 }
 #Head{
 	position:relative;
-	top:50px;
-	right:170px;
-	margin: 0px 150px;
+	top:25px;
+	right:300px;
+	margin: 0px 0px;
 	margin-bottom:80px;
 	
 	
@@ -35,7 +35,6 @@ body{
 #takutaku{
 	width:600px;
 	height:375px;
-	border:1px black solid;
 	border-radius:20px;
 	z-index:-1;
 }
@@ -54,4 +53,11 @@ body{
 	background-color:#F9A43B;
 	border:5px #DF881F solid;
 	border-radius: 10px;
+	font-weight: bold;
+	text-align:center;
+	padding: 10px;
+	position:relative;
+	top:15px;
+	left:50px;
+	width:600px;
 }

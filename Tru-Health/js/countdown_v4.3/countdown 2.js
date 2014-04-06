@@ -18,8 +18,8 @@ var CountdownImageExt = "png";
 var CountdownImagePhysicalWidth = 41;
 var CountdownImagePhysicalHeight = 60;
 
-var CountdownWidth = 500;
-var CountdownHeight = 50;
+var CountdownWidth = 450;
+var CountdownHeight = 45;
 
 var CountdownLabels = {
 	second 	: "SEGUNDOS",

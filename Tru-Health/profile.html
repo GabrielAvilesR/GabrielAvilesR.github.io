@@ -5,9 +5,9 @@
 	<head>
 		<link rel="shortcut icon" type="image/x-icon" href="img/TH.ico">
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-		<title>TRU-HEALTH - User Profile</title>
+		<title>Tru-Health - User Profile</title>
 		<meta name="author" content="Israel Castro Gonzalez" />
-
+	<script src="js/countdown_v4.3/countdown 2.js"></script>
 		<!-- Date: 2014-04-05 -->
 	</head>
 
@@ -21,10 +21,14 @@
 			<input type="image" src="img/progreso.png" onclick="myProgreso()" onmouseover="this.src='img/progreso-mouseover.png';" onmouseout="this.src='img/progreso.png';" name="progreso" width="120" height="60">
 
 		</div>
+		<div align="right" style="display:inline-block;margin-left:80px;">
+			
+			<script>
+						var myCountdown1 = new Countdown({time:200000000});
+						</script>
+		</div>
 		<hr>
 		<div align="left" style="display:inline-block;margin-left:60px;">
-			<h2>New User</h2>
-			<p></p>
 			<img src="img/imagen-perfil.png" width="100" height="100"/>
 		</div>
 		<p></p>
@@ -32,19 +36,40 @@
 			<img src="img/datos.png" width="220" height="435"/>
 		</div>
 
+		<div align="center" style="display:inline-block;margin-left:120px;position:relative;bottom:60px;">
+			<p id="myP" style="visibility:hidden" ><img src="img/estadistica.png"/>
+			</p>
+		</div>
 
-		<div align="center" style="display:inline-block;margin-left:120px;">
-			<p id="myP" style="visibility:hidden" ><img src="img/grafica.png"/>
+		<div align="center" id="myT" style="display:inline-block;margin-left:300px;position:relative;bottom:400px;">
+			<p>
+				<textarea rows="5" cols="75">
+				Distancias Recorridas...
+				</textarea>
+			</p>
+			<p>
+				<textarea rows="5" cols="75">
+				Ejercicios Realizados...
+				</textarea>			
+			</p>
+		</div>
+
+		<div align="center" style="display:inline-block;margin-left:920px;position:relative;bottom:700px;">
+			<p>
+				<img src="gif/tips.gif"/>
 			</p>
 		</div>
 
 		<script>
 			function myProgreso() {
 				document.getElementById("myP").style.visibility = "visible";
+				document.getElementById("myT").style.visibility = "hidden";
 			}
 
 			function myBitacora() {
 				document.getElementById("myP").style.visibility = "hidden";
+				document.getElementById("myT").style.visibility = "visible";
+				
 
 			}
 		</script>
