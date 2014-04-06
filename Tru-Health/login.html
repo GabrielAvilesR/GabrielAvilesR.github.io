@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tru-Health</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<script type="text/javascript" src="http://www.parsecdn.com/js/parse-1.2.18.min.js"></script>
+	<link href="css/micss.css" rel="stylesheet">
+   </head>
+   <body>
+	<script type="text/javascript">
+    Parse.initialize("xyDdfJPwCFlAd1C1ih5YtRYaZDEJhpFfcDW6Cb8V", "zujFpI8MELsIxZubQl6Fr5qI81LWO6nYJ2dJI8Ho");
+	var currentUser = Parse.User.current();
+  </script>
+  <script type="text/javascript">
+  function register(){
+  if(document.register.pass.value==document.register.repass.value){
+		var user = new Parse.User();
+		user.set("username", document.register.username.value);
+		user.set("password", document.register.pass.value);
+		user.set("email", document.register.email.value);
+		// other fields can be set just like with Parse.Object
+		user.set("fName", document.register.fname.value);
+		user.set("lName", document.register.lname.value);
+		user.signUp(null, {
+			success: function(user) {
+			// Hooray! Let them use the app now.
+			login(document.register.username.value, document.register.pass.value);
+			
+			},
+			error: function(user, error) {
+			// Show the error message somewhere and let the user try again.
+			alert("Error: " + error.code + " " + error.message);
+			}
+		});
+	}
+	else{
+		alert("Passwords don't match");
+	}
+  }
+  function login(uname,pass){
+	Parse.User.logIn(uname,pass, {
+		success: function(user) {
+		// Do stuff after successful login.
+		currentUser=user;
+		logged();
+		},
+		error: function(user, error) {
+		// The login failed. Check error to see why.
+		alert("shit happens, not logged in");
+		}
+	});
+	function logged(){
+		
+		if (currentUser) {
+			console.log(currentUser.get("fName"));
+			// do stuff with the user
+			if(currentUser.get("fName") && currentUser.get("lName")){
+				alert("Logged in as "+currentUser.get("fName")+" "+currentUser.get("lName"));
+			}
+			else{
+				alert("Logged in as "+currentUser.get("username"));
+			}
+		} else {
+			// show the signup or login page
+			alert("entered but not logged?");
+		}
+	}
+	
+}
+function test(){
+	if(currentUser){
+		alert("Currently logged as "+currentUser.get("username"));
+	}
+	else{
+		alert("Currently not logged in");
+	}
+}
+function logout(){
+	
+	if(currentUser){
+	Parse.User.logOut();
+	currentUser = Parse.User.current();  // this will now be null
+	alert("Logged out");
+	}
+	else{
+	alert("Not logged in");
+	}
+	
+}
+  </script>
+		<div class="row">
+		
+    		<div class="col-xs-2 col-xs-offset-2 col-md-2 col-md-offset-4">
+    		<img id="Head" src="gif/logo-inicio.gif"/>
+    		</div>
+    	</div>
+<div class="row">
+	<div class="col-xs-6 col-xs-offset-5 col-md-2 col-md-offset-2">
+	<h2>Log in</h2>
+		<form name='login' action="javascript:login(document.login.username.value, document.login.pass.value)">
+		Username: <br><input type="text" name="username"><br>
+		password:<br><input type="password" name="pass"><br>
+		<input type="submit" value="Submit">
+		</form>
+	</div>
+	<div class="col-xs-6 col-xs-offset-5 col-md-1 col-md-offset-2"><h3> OR </h3></div>
+	<div class="col-xs-6 col-xs-offset-5 col-md-2 col-md-offset-2">
+	<h2>Register</h2>
+		<form name='register' action="javascript:register()">
+		*First name:<br> <input type="text" name="fname"><br>
+		*Last name: <br><input type="text" name="lname"><br>
+		Username: <br><input type="text" name="username"><br>
+		Email:<br><input type="text" name="email"><br>
+		Password:<br><input type="password" name="pass"><br>
+		Retype password:<br><input type="password" name="repass"><br>
+		<input type="submit" value="Submit">
+			
+  
+		</form>
+	</div>
+</div>
+   </body>
+   </html>

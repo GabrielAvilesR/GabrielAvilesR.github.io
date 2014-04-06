@@ -13,7 +13,9 @@
 	
 	<?php
 		if($_GET["run"]){
-			exec("/cande/main.sh");
+			exec("cande/main.sh");
+			exec("cande/text2speech.sh");
+			exec("cande/speech2text.sh");
 		}
 	?>
 	<script src="js/countdown_v4.3/countdown.js"></script>
