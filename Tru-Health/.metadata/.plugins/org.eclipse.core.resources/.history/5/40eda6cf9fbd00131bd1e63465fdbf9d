@@ -1,0 +1,79 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+	<head>
+		<link rel="shortcut icon" type="image/x-icon" href="img/TH.ico">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Tru-Health - User Profile</title>
+		<meta name="author" content="Israel Castro Gonzalez" />
+	<script src="js/countdown_v4.3/countdown 2.js"></script>
+		<!-- Date: 2014-04-05 -->
+	</head>
+
+	<body bgcolor="#A14040">
+		<div align="left" style="display:inline-block">
+			<img src="gif/logo-usuario.gif" width="325" height="50"/>
+		</div>
+		<div align="center" style="display:inline-block;margin-left:170px;">
+
+			<input type="image" src="img/bitacora.png" onclick="myBitacora()" onmouseover="this.src='img/bitacora-mouseover.png';" onmouseout="this.src='img/bitacora.png';" name="bitacora" width="120" height="60">
+			<input type="image" src="img/progreso.png" onclick="myProgreso()" onmouseover="this.src='img/progreso-mouseover.png';" onmouseout="this.src='img/progreso.png';" name="progreso" width="120" height="60">
+
+		</div>
+		<div align="right" style="display:inline-block;margin-left:100px;">
+			<h1 style="font-size:15px;textt-align:center;">Tiempo restante para morir!</h1>
+			<script>
+						var myCountdown1 = new Countdown({time:200000000});
+						</script>
+		</div>
+		<hr>
+		<div align="left" style="display:inline-block;margin-left:60px;">
+			<img src="img/imagen-perfil.png" width="100" height="100"/>
+		</div>
+		<p></p>
+		<div align="left" style="display:inline-block">
+			<img src="img/datos.png" width="220" height="435"/>
+		</div>
+
+		<div align="center" style="display:inline-block;margin-left:120px;position:relative;bottom:60px;">
+			<p id="myP" style="visibility:hidden" ><img src="img/estadistica.png"/>
+			</p>
+		</div>
+
+		<div align="center" id="myT" style="display:inline-block;margin-left:300px;position:relative;bottom:400px;">
+			<p>
+				<textarea rows="5" cols="75">
+				Distancias Recorridas...
+				</textarea>
+			</p>
+			<p>
+				<textarea rows="5" cols="75">
+				Ejercicios Realizados...
+				</textarea>			
+			</p>
+		</div>
+
+		<div align="center" style="display:inline-block;margin-left:920px;position:relative;bottom:700px;">
+			<p>
+				<img src="gif/tips.gif"/>
+			</p>
+		</div>
+
+		<script>
+			function myProgreso() {
+				document.getElementById("myP").style.visibility = "visible";
+				document.getElementById("myT").style.visibility = "hidden";
+			}
+
+			function myBitacora() {
+				document.getElementById("myP").style.visibility = "hidden";
+				document.getElementById("myT").style.visibility = "visible";
+				
+
+			}
+		</script>
+
+	</body>
+</html>
+

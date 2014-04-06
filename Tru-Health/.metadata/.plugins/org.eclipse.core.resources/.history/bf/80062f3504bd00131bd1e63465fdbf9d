@@ -1,0 +1,28 @@
+
+body{
+	background-color:#FFD8D9;
+}
+#mediform{
+	background-color: #FF741D;
+	width: 500px;
+	padding: 20px;
+	padding-top: 0px;
+	border: 5px #FB6000 solid;
+}
+#Head{
+	position:relative;
+	top:50px;
+	right:100px;
+	margin: 0px 50px;
+	margin-bottom:80px;
+	/*border: 5px black solid;
+	border-radius:15px;*/
+	
+}
+
+#tituloform{
+	
+}
+#subtituloform{
+	
+}
