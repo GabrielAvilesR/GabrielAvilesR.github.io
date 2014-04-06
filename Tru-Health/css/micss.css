@@ -13,8 +13,8 @@ body{
 #Head{
 	position:relative;
 	top:50px;
-	right:100px;
-	margin: 0px 50px;
+	right:170px;
+	margin: 0px 150px;
 	margin-bottom:80px;
 	
 	
@@ -31,4 +31,27 @@ body{
 	text-decoration:none;
 	color:white;
 	
+}
+#takutaku{
+	width:600px;
+	height:375px;
+	border:1px black solid;
+	border-radius:20px;
+	z-index:-1;
+}
+#Countdown{
+	position:relative;
+	bottom:180px;
+	color:white;
+	margin:0px 50px;
+	
+}
+#Countdown h1{
+	margin-left:20px;
+	color:white;
+}
+#footer{
+	background-color:#F9A43B;
+	border:5px #DF881F solid;
+	border-radius: 10px;
 }
