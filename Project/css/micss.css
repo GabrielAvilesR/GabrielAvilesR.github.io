@@ -4,8 +4,8 @@ body {
 	
 }
 #header {
-	font-weight:bold;
-	
+	background-color:#5FC2F3;
+	border:3px #5FC2F3 solid;
 }
 #brand{
 	color:black;
@@ -77,8 +77,6 @@ body {
 	text-decoration:none;
 	background-color:#F7C216;
 	width:400px;
-	/*height:200px;
-	padding:50px;*/
 	margin: 20px;
 	font-size:50px;
 	font-weight:bold;
@@ -88,4 +86,3 @@ body {
 	border-radius: 50px;
 	
 }
-
