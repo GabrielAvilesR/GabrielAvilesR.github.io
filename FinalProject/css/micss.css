@@ -28,5 +28,7 @@ body{
 	
 }
 #logo{
-	width:90%;
+	position:fixed;
+	z-index: -1;
+	width:100%;
 }
