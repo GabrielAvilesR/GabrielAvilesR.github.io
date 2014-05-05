@@ -33,7 +33,7 @@ body{
 	width:100%;
 }
 #sympthoms{
-	background-color:#0DC1FC;
+	
 	width:90%;
 	margin: 0 auto;
 }
@@ -44,6 +44,7 @@ body{
 	
 }
 #infosick{
+	background-color:#D2E1E6;
 	position:relative;
 	text-align: center;
 	width:35%;
@@ -54,4 +55,9 @@ body{
 	z-index:2;
 	position:absolute;
 	top:1px;
+	
+}
+ul li{
+	list-style-type: none;
+	text-decoration:none;
 }
