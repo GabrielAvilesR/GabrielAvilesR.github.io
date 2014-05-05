@@ -18,23 +18,68 @@
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-<body>
-<!-- Nav tabs -->
-<ul class="nav nav-tabs">
-  <li class="active"><a href="#home" data-toggle="tab"><span id="header">Home</span></a></li>
-  <li><a href="#problem" data-toggle="tab">Problem</a></li>
-  <li><a href="#Why" data-toggle="tab">Why?</a></li>
-  <li><a href="#S" data-toggle="tab">Solution</a></li>
-  <li><a href="#P" data-toggle="tab">Persona</a></li>
-  <li><a href="#I" data-toggle="tab">Interview</a></li>
-  <li><a href="#M" data-toggle="tab">Mockup/Architecture</a></li>
-  <li><a href="#V" data-toggle="tab">Visual Design/Formulario</a></li>
-</ul>
-
-<!-- Tab panes -->
-<div class="tab-content">
-  <div class="tab-pane fade in active" id="home">
+  <body>
 	<div class="container-fluid">
+		<div class="row" >
+			<div class="col-md-12">
+				<nav class="navbar navbar-default" role="navigation">
+  				<div class="container-fluid" id="header">
+    					<!-- Brand and toggle get grouped for better mobile display -->
+   					 <div class="navbar-header">
+     						 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        					<span class="sr-only">Toggle navigation</span>
+        					<span class="icon-bar"></span>
+        					<span class="icon-bar"></span>
+        					<span class="icon-bar"></span>
+      						</button>
+      						<a class="navbar-brand" href="index.html"><span id="brand">Jalisco sin Influenza </a>
+    					</div>
+
+    					<!-- Collect the nav links, forms, and other content for toggling -->
+   					 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      						<ul class="nav navbar-nav">
+							<li><a href="index.html"><span class="header present">Home</span></a></li>
+        						<li class="dropdown">
+								<a href="Problem.html" class="dropdown-toggle" data-toggle="dropdown"><span class="header">Problem</a>
+								<ul class="dropdown-menu">
+									<li><a href="Problem.html#Problem">The Problem</a></li>
+									<li><a href="Problem.html#Solution">Our Solution</a></li>
+								</ul>
+							</li>
+							<li class="dropdown">
+								<a href="Why.html" class="dropdown-toggle" data-toggle="dropdown"><span class="header"> Why?</a>
+								<ul class="dropdown-menu">
+									<li><a href="Why.html#Context">Context</a></li>
+									<li><a href="Why.html#Audience">Audience</a></li>
+								</ul>
+							</li>
+							<li class="dropdown">
+								<a href="Solution.html" class="dropdown-toggle" data-toggle="dropdown"> <span class="header"> Solution</a>
+								<ul class="dropdown-menu">
+								<li><a href="Solution.html#Interface">Interface</a></li>
+								<li><a href="Solution.html#Symptoms">Symptoms Recognition</a></li>
+								<li><a href="Solution.html#Locations">Where to go?</a></li>
+								<li><a href="Solution.html#Prevention">What to do?</a></li>
+								</ul>
+							</li>
+							<li><a href="http://jaliscosininfluenza.tumblr.com/"><span class="header"> Blog </a></li>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="header"> News </a>
+								<ul class="dropdown-menu">
+									<li><a href="http://www.eluniversal.com.mx/estados/2014/influenza-jalisco-989463.html">84 Deaths because of the Swine Flu</a></li>
+									<li><a href="http://www.informador.com.mx/jalisco/2014/513802/6/secretaria-de-salud-reporta-679-casos-de-influenza-en-jalisco.htm">679 cases of the Swine Flu in Jalisco</a></li>
+									<li><a href="http://www.sexenio.com.mx/jalisco/articulo.php?id=2957">The SSJ asks for awareness about the Swine Flue</a></li>
+								</ul>
+							</li>
+							<li><a href="Persona.html"><span class="header"> Personas </a></li>
+							<li><a href="Interview.html"><span class="header"> Interviews</a></li>
+      						</ul>
+    					</div><!-- /.navbar-collapse -->
+  				</div><!-- /.container-fluid -->
+				</nav>
+
+			</div>
+		</div>
 		<div class="row">
 			<div class="col-md-8 col-md-offset-2">
 				<h1 id="title">Jalisco Sin Influenza</h1>
@@ -49,200 +94,9 @@
 
 	</div>
 
-
-  </div>
-  <div class="tab-pane fade" id="problem">
-	<div class="container-fluid">
-	<div class="row">
-			<div class="col-md-8 col-md-offset-2">
-				<h1 id="title">Jalisco Sin Influenza</h1>
-				<h6 id="slogan">Buscando informar a la población de Jalisco sobre la Influencia, su presencia en el momento y como prevenir sus graves consecuencias. </h6>
-			</div>
-			<div class="col-md-2"><img src="img/noflu.jpg" id="titlephoto"/></div>
-		</div>
-		<div class="row">
-			<div class="col-md-8">
-				<h1 class="subtitle" id="Problem">The Problem</h1>
-				<p class="texto">The main problem we are trying to solve with our app is the lack of knowledge about Swine Flu in Jalisco, to make this possible we are going to give information about how to prevent it, how to know if you are sick, what to do if you are sick, if you feel bad or both. Jalisco has had many cases these past months. Over six hundred confirmed cases of Swine Flu of different ages. The worst mistake people had done is to confuse the Swine Flu with the common cold. Treating on with the other can end in death in either case.</p>
-			</div>
-			<div class="col-md-4">
-				<img class="img" src="img/an1n1.jpg" />
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-md-8">
-				<h1 class="subtitle" id="Solution">Our Solution</h1>
-				<p class="texto">We will try to give a solution to this problem creating an application that will share the knowledge of how to detect the Swine Flue, what to do if you or someone you know has it, where to go if medical attention is needed, and many more aspects about this disease that everyone must be aware of. This application will be simple and very usefull to everyone of any age and it will prepare the user to confront the Swine Flu.</p>
-			</div>
-			<div class="col-md-4">
-				<img class="img" src="img/cura.jpg" />
-			</div>
-		</div>
-	</div>
-  </div>
-  <div class="tab-pane fade" id="Why">
-	<div class="container-fluid">
-	<div class="row">
-			<div class="col-md-8 col-md-offset-2">
-				<h1 id="title">Jalisco Sin Influenza</h1>
-				<h6 id="slogan">Buscando informar a la población de Jalisco sobre la Influencia, su presencia en el momento y como prevenir sus graves consecuencias. </h6>
-			</div>
-			<div class="col-md-2"><img src="img/noflu.jpg" id="titlephoto"/></div>
-		</div>
-		<div class="row">
-			<div class="col-md-8">
-				<h1 class="subtitle" id="Context">Context</h1>
-				<p class="texto">Jalisco in the state with the most cases of people with influenza, also known as "the flu". There has been over 618 reported cases and 77 deaths from the flu, that is why we will create an app to inform people about the flu, causes and symptoms, and include a way for people to contact hospitals and provide emergency numbers.</p>
-			</div>
-			<div class="col-md-4">
-				<img class="img" src="img/muertesEstados.png" />
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-md-8">
-				<h1 class="subtitle" id="Audience">Audience</h1>
-				<p class="texto">The audience that our app is trying to reach is people from Jalisco between 14 and 40 years, they are the active audience of the app because older people are not very used to smartphones and younger people are not interested in these subjects, they want to play games and have fun.</p>
-			</div>
-			<div class="col-md-4">
-				<img class="img" src="img/audiencia.jpg" />
-			</div>
-		</div>
-	</div>
-
-  </div>
-  <div class="tab-pane fade" id="S"><div class="row">
-			<div class="col-md-8 col-md-offset-2">
-				<h1 id="title">Jalisco Sin Influenza</h1>
-				<h6 id="slogan">Buscando informar a la población de Jalisco sobre la Influencia, su presencia en el momento y como prevenir sus graves consecuencias. </h6>
-			</div>
-			<div class="col-md-2"><img src="img/noflu.jpg" id="titlephoto"/></div>
-		</div>
-		<div class="row">
-			<div class="col-md-8">
-				<h1 class="subtitle" id="Interface">Interface</h1>
-				<p class="texto">Our app is going to be an informative app, but to avoid making it a very boring app that no one wants it will have images and atractive colors, it will work with google maps API to find the hospitals. </p>
-			</div>
-			<div class="col-md-4">
-				<img class="img" src="img/app.jpg" />
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-md-8">
-				<h1 class="subtitle" id="Symptoms">Symptoms Recognition</h1>
-				<p class="texto2">Flu symptoms include:
-    				<li class="texto2">A 100°F or higher fever or feeling feverish (not everyone with the flu has a fever)</li>
-    				<li class="texto2">A cough and/or sore throat</li>
-    				<li class="texto2">A runny or stuffy nose</li>
-    				<li class="texto2">Headaches and/or body aches</li>
-    				<li class="texto2">Chills</li>
-    				<li class="texto2">Fatigue</li>
-   					<li class="texto2">Nausea, vomiting, and/or diarrhea (most common in children)</li></p>
-			</div>
-			<div class="col-md-4">
-				<img class="img" src="img/symptoms.jpg" />
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-md-8">
-				<h1 class="subtitle" id="Locations">Where to go?</h1>
-				<p class="texto">If  you feel bad inmediatly go to the nearest hospital to your location.</p>
-			</div>
-			<div class="col-md-4">
-				<img class="img" src="img/hospital.png" />
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-md-8">
-				<h1 class="subtitle" id="Prevention">What to do?</h1>
-				<p class="texto2">Seek medical attention immediately if you experience any of the following:
-    				<li class="texto2">Difficulty breathing or shortness of breath</li>
-    				<li class="texto2">Purple or blue discoloration of the lips</li>
-    				<li class="texto2">Pain or pressure in the chest or abdomen</li>
-    				<li class="texto2">Sudden dizziness</li>
-    				<li class="texto2">Confusion</li>
-    				<li class="texto2">Severe or persistent vomiting</li>
-    				<li class="texto2">Seizures</li>
-    				<li class="texto2">Flu-like symptoms that improve but then return with fever and worse cough</li></p>
-			</div>
-			<div class="col-md-4">
-				<img class="img" src="img/prevention.jpg" />
-			</div>
-		</div></div>
-
-   <div class="tab-pane fade" id="P"><div class="row">
-			<div class="col-md-8 col-md-offset-2">
-				<h1 id="title">Jalisco Sin Influenza</h1>
-				<h6 id="slogan">Buscando informar a la población de Jalisco sobre la Influencia, su presencia en el momento y como prevenir sus graves consecuencias. </h6>
-			</div>
-			<div class="col-md-2"><img src="img/noflu.jpg" id="titlephoto"/></div>
-		</div>
-		<div class="row">
-			<h1 id="title">Personas</h1>
-		</div>
-		<div class="row">
-			<div class="col-md-3 personabtn"><a href="img/Gabriel.png">Gabriel Avilés</a></div>
-			<div class="col-md-3 personabtn"><a href="img/Marco.png">Marco Bernal</a></div>
-			<div class="col-md-3 personabtn"><a href="img/Paco.jpg">Francisco López</a></div>
-		</div></div>
-   <div class="tab-pane fade" id="I"><div class="row">
-			<div class="col-md-8 col-md-offset-2">
-				<h1 id="title">Jalisco Sin Influenza</h1>
-				<h6 id="slogan">Buscando informar a la población de Jalisco sobre la Influencia, su presencia en el momento y como prevenir sus graves consecuencias. </h6>
-			</div>
-			<div class="col-md-2"><img src="img/noflu.jpg" id="titlephoto"/></div>
-		</div>
-		<div class="row">
-			<h1 id="title">Interviews and Benchmarking</h1>
-		</div>
-		<div class="row">
-			<div class="col-md-3 personabtn"><a href="pdf/EntrevistaaunExperto.pdf">Interview to an Expert</a></div>
-			<div class="col-md-3 personabtn"><a href="pdf/EntrevistaaunUsuario.pdf">Interview to one User</a></div>
-			<div class="col-md-3 personabtn"><a href="pdf/Benchmarking.pdf">Benchmarking Activity</a></div>
-		</div></div>
-		 <div class="tab-pane fade" id="M"><div class="row">
-			<div class="col-md-8 col-md-offset-2">
-				<h1 id="title">Jalisco Sin Influenza</h1>
-				<h6 id="slogan">Buscando informar a la población de Jalisco sobre la Influencia, su presencia en el momento y como prevenir sus graves consecuencias. </h6>
-			</div>
-			<div class="col-md-2"><img src="img/noflu.jpg" id="titlephoto"/></div>
-		</div>
-		<div class="row">
-			<h1 id="title">Mockup Implementation and Architecture</h1>
-		</div>
-		<div class="row">
-			<div class="col-md-3 personabtn"><a href="archivos/Implementacion.zip">Gabriel Avilés</a></div>
-			<div class="col-md-3 personabtn"><a href="#">Marco Bernal</a></div>
-			<div class="col-md-3 personabtn"><a href="archivos/Prototype.rar">Francisco López</a></div>
-		</div>
-		<div class="row">
-			<div class="col-md-3 col-md-offset-4 personabtn"><a href="https://docs.google.com/document/d/1r-LtB3JfzSFDLu-80VQ7SdRCCmkh72do6gvTBMw6wSU/edit?usp=sharing">Architecture</a></div>
-		</div></div>
-		 <div class="tab-pane fade" id="V"><div class="row">
-			<div class="col-md-8 col-md-offset-2">
-				<h1 id="title">Jalisco Sin Influenza</h1>
-				<h6 id="slogan">Buscando informar a la población de Jalisco sobre la Influencia, su presencia en el momento y como prevenir sus graves consecuencias. </h6>
-			</div>
-			<div class="col-md-2"><img src="img/noflu.jpg" id="titlephoto"/></div>
-		</div>
-		<div class="row">
-			<h1 id="title">Visual Design and Formulario</h1>
-		</div>
-		<div class="row">
-			<div class="col-md-3 personabtn"><a href="img/diseño_proyecto.jpg">Gabriel Avilés</a></div>
-			<div class="col-md-3 personabtn"><a href="#">Marco Bernal</a></div>
-			<div class="col-md-3 personabtn"><a href="img/Diseño.png">Francisco López</a></div>
-		</div>
-		<div class="row">
-			<div class="col-md-3 col-md-offset-4 personabtn"><a href="https://docs.google.com/forms/d/11Q04LwHn-g-gN6Wfpia0r40czUtMZkk_ff8v2K7AxC0/viewform">Formulario</a></div>
-		</div>
-		</div>
-</div>
-
-
-
-	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://code.jquery.com/jquery.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
-</body>
+  </body>
 </html>
