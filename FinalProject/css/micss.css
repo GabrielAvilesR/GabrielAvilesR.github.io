@@ -39,13 +39,19 @@ body{
 }
 #imgsick{
 	position:relative;
-	width: 60%;
+	width: 100%;
 	display:inline-block;
+	
 }
 #infosick{
 	position:relative;
-	background-color:black;
+	text-align: center;
 	width:35%;
 	height:100%;
 	display:inline-block;
+}
+.synt{
+	z-index:2;
+	position:absolute;
+	top:1px;
 }
