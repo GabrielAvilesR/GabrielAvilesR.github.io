@@ -32,3 +32,20 @@ body{
 	z-index: -1;
 	width:100%;
 }
+#sympthoms{
+	background-color:#0DC1FC;
+	width:90%;
+	margin: 0 auto;
+}
+#imgsick{
+	position:relative;
+	width: 60%;
+	display:inline-block;
+}
+#infosick{
+	position:relative;
+	background-color:black;
+	width:35%;
+	height:100%;
+	display:inline-block;
+}
