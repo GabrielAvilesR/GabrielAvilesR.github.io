@@ -27,3 +27,11 @@ body{
 	
 	
 }
+#menutxt{
+	font-size:140%;
+	position:fixed;
+	left:40%;
+	top:10px;
+	font-weight:bolder;
+	width:150px;
+}
