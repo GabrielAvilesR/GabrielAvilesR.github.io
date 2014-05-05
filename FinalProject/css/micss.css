@@ -3,12 +3,24 @@ body{
 
 }
 #icono{
+	position: relative;
 	margin:auto;
-	width: 100px;	
+	width: 48px;
+	top:-11px;
+	margin-right:1%;	
 }
 #menu{
 	margin:auto;
 	width: 90%;
 	position:relative;
 	top:10px;
+	
+}
+#navibar{
+	border-color:blue;
+}
+.navoption{
+	font-size:150%;
+	margin: 0 1%;
+	font-weight:bolder;
 }
