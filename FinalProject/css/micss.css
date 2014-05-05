@@ -5,9 +5,9 @@ body{
 #icono{
 	position: relative;
 	margin:auto;
-	width: 48px;
-	top:-11px;
-	margin-right:1%;	
+	width: 50px;
+	top:-11px;	
+	border: 1px black solid;
 }
 #menu{
 	margin:auto;
@@ -17,10 +17,13 @@ body{
 	
 }
 #navibar{
+	padding:1%;
+	
 	border-color:blue;
 }
 .navoption{
-	font-size:150%;
-	margin: 0 1%;
+	font-size:145%;
 	font-weight:bolder;
+	
+	
 }
