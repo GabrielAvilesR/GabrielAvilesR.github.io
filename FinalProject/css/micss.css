@@ -2,3 +2,13 @@ body{
 	background-color:#C3CCF7;	
 
 }
+#icono{
+	margin:auto;
+	width: 100px;	
+}
+#menu{
+	margin:auto;
+	width: 90%;
+	position:relative;
+	top:10px;
+}
