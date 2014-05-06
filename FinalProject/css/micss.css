@@ -58,6 +58,30 @@ body{
 	top:1px;
 	
 }
+#f{
+	font-size:250%;
+	position:absolute;
+	top:400%;
+	left:530%;
+	color:black;
+	font-weight:bolder;
+}
+#f:hover{
+	text-decoration:none;
+}
+#d{
+	font-size:250%;
+	position:absolute;
+}
+#d:hover{
+	text-decoration:none;
+}
+#c{
+	
+}
+#c:hover{
+	
+}
 ul li{
 	list-style-type: none;
 	text-decoration:none;
@@ -67,7 +91,7 @@ ul li{
 	width:90%;
 	left:5%;
 	text-align:center;
-	font-size:500%;
+	font-size:400%;
 	background-color:white;
 	border:2px blue solid;
 	border-radius:50px;
