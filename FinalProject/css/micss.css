@@ -2,6 +2,14 @@ body{
 	background-color:#C3CCF7;	
 
 }
+.img{
+	position:relative;
+	top: 20px;
+	width:400px;
+	height: 350px;
+	border: 1px black solid;
+	border-radius: 50px;
+}
 #icono{
 	position: relative;
 	margin:auto;
