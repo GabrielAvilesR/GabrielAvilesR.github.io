@@ -59,9 +59,9 @@ body{
 	
 }
 #f{
-	font-size:250%;
+	font-size:3em;
 	position:absolute;
-	top:400%;
+	top:530%;
 	left:530%;
 	color:black;
 	font-weight:bolder;
@@ -72,6 +72,8 @@ body{
 #d{
 	font-size:250%;
 	position:absolute;
+	color:black;
+	font-weight:bolder;
 }
 #d:hover{
 	text-decoration:none;
