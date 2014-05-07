@@ -5,6 +5,7 @@ body{
 .img{
 	position:relative;
 	top: 20px;
+	right:45%;
 	width:400px;
 	height: 350px;
 	border: 1px black solid;
@@ -37,9 +38,10 @@ body{
 }
 #logo{
 	position:relative;
-	margin: 0 auto;
-	width:90%;
-	left:5%;;
+	left:5%;
+	width:60%;
+	
+	display:inline-block;
 }
 #sympthoms{
 	
@@ -56,6 +58,7 @@ body{
 	background-color:#D2E1E6;
 	position:relative;
 	text-align: center;
+	font-size:1.3em;
 	width:30%;
 	margin-right:5%;
 	height:100%;
@@ -141,8 +144,28 @@ ul li{
 	border-radius:50px;
 	color:black;
 	font-weight: bolder;
+	padding: 10px;
 }
 #infosick h1{
 	font-weight:bolder;
 	font-size:<100%></100%>
+}
+.caro{
+	margin: 0 auto;
+	width: 60%;
+}
+.capc{
+	font-weight:bolder;
+	font-size: 2em;
+}
+.texto{
+	color:black;
+	font-weight: bold;
+	font-size:1.3em;
+}
+.subtitle{
+	color:black;
+	font-weight:bolder;
+	font-size:2em;
+	text-align: center;
 }
