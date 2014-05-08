@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Calculadora | Arduino</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/micss.css" rel="stylesheet">
+	
+  </head>
+  <body>
+  	<div class="container">
+  		<div class="row">
+  			<nav class="navbar navbar-default" role="navigation">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Calculadora-Arduino</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="index.html">Descripci&oacute;n</a></li>
+        <li><a href="materiales.html">Materiales</a></li>
+        <li class="active"><a href="construccion.html">Construcci&oacute;n</a></li>
+        <li><a href="equipo.html">Equipo</a></li>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+  		</div>
+  		<div class="row">
+  			<div class="col-md-8">
+  				<h1>Super Calculadora</h1>
+  				<h3>En Arduino</h3>
+  			</div>
+  			<div class="col-md-4">
+  				<img id="mainImg" src="Img/WP_000774.jpg"/>
+  			</div>
+  		</div>
+  		<div class="row">
+  			<h1>Construccion</h1>
+  			<h2>Diagrama</h2>
+  			<img class="Imgs" src="Img/Captura.JPG" />
+  			<h2>Simulacion</h2>
+  			<img class="Imgs" src="Img/Captura3.JPG" />
+  			<img class="Imgs" src ="Img/Captura4.JPG"/>
+  			<h2>Procedimiento</h2>
+  			<h3>Simulacion</h3>
+  			<p>Primero, antes de pensar en trabajar con componentes fisicos, preparamos el codigo que teniamos que utilizar con componentes ficticios en una simulacion. 
+  				Utilizando el lenguaje de arduino que es un tipo de mezcla entre c++/java y c mas las funciones de "void loop()" y "void setup()". Con el programa Proteus, pudimos probar el codigo mientras lo haciamos, armando el circuito que ibamos a tener en un futuro en fisico, para simplemente correr el codigo y ver si hace lo que se supone que deberia hacer.</p>
+  			<h3>Construccion</h3>
+  			<p>Una vez que la simulacion fue un exito, armamos el arduino, utilizando un protoboard para comunicar el arduino con los componentes. El protoboard lo utilizamos como un puente para conectar el LCD y los botones matriciales al arduino.
+  				</p>	
+  			<h2>Codigo</h2>
+  			<p><a href="Img/final.ino">ver el codigo</a></p>
+  			<h2>Evidencia de Construccion</h2>
+  			<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  				<!-- Indicators -->
+  				<ol class="carousel-indicators">
+    				<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    				<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    				<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+    				<li data-target="#carousel-example-generic" data-slide-to="3"></li>
+    				<li data-target="#carousel-example-generic" data-slide-to="4"></li>
+    				<li data-target="#carousel-example-generic" data-slide-to="5"></li>
+  				</ol>
+
+  				<!-- Wrapper for slides -->
+  				<div class="carousel-inner">
+    				<div class="item active">
+      					<img src="Img/WP_000760.jpg" class="imgcar">
+      					<div class="carousel-caption">
+        					<p>Componentes</p>
+      					</div>
+    				</div>
+    				<div class="item">
+      					<img src="Img/WP_000763.jpg" class="imgcar">
+      					<div class="carousel-caption">
+        					<p>Componentes 2</p>
+      					</div>
+    				</div>
+    				<div class="item">
+      					<img src="Img/WP_000782.jpg" class="imgcar">
+      					<div class="carousel-caption">
+        					<p>Protoboard</p>
+      					</div>
+    				</div>
+    				<div class="item">
+      					<img src="Img/WP_000781.jpg" class="imgcar">
+      					<div class="carousel-caption">
+        					<p>Arduino con Conectores</p>
+      					</div>
+    				</div>
+    				<div class="item">
+      					<img src="Img/WP_000776.jpg" class="imgcar">
+      					<div class="carousel-caption">
+        					<p>Componentes conectados al arduino</p>
+      					</div>
+    				</div>
+    				<div class="item">
+      					<img src="Img/WP_000759.jpg" class="imgcar">
+      					<div class="carousel-caption">
+        					<p>Calculadora terminada</p>
+      					</div>
+    				</div>
+  				</div>
+
+  			<!-- Controls -->
+  			<a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+    			<span class="glyphicon glyphicon-chevron-left"></span>
+  			</a>
+  			<a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+    			<span class="glyphicon glyphicon-chevron-right"></span>
+ 				 </a>
+			</div>
+  	</div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+   
+  </body>
+</html>
