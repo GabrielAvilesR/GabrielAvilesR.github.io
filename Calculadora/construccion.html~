@@ -52,7 +52,6 @@
   			<h2>Simulacion</h2>
   			<img class="Imgs" src="Img/Captura3.JPG" />
   			<img class="Imgs" src ="Img/Captura4.JPG"/>
-			<p><a href="calculadora.rar">Descargar simulacion</a></p>
   			<h2>Procedimiento</h2>
   			<h3>Simulacion</h3>
   			<p>Primero, antes de pensar en trabajar con componentes fisicos, preparamos el codigo que teniamos que utilizar con componentes ficticios en una simulacion. 
