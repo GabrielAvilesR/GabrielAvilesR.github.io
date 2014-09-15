@@ -32,7 +32,7 @@
   <body>
     <div class="container-fluid">
     	<div class="row" id="headerdiv">
-    		<h1 id="header"><a href="project.png">Boceto </a>de Jalisco Sin Influenza: Mapa</h1>
+    		<h1 id="header"><a href="project.png">Boseto </a>de Jalisco Sin Influenza: Mapa</h1>
     	</div>
     	<div class="row">
     		<div class="container" id="background">
