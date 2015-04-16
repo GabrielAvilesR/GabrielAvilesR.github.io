@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	
+<head>
+	<title>MiCoto Login</title>
+		<meta charset="utf-8">
+		<link href="css/style.css" rel='stylesheet' type='text/css' />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+		<!--webfonts-->
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:600italic,400,300,600,700' rel='stylesheet' type='text/css'>
+		<!--//webfonts-->
+</head>
+<body>
+				 <!-----start-main---->
+				<div class="login-form">
+					<div class="head">
+						<img src="images/mem2.jpg" alt=""/>
+						
+					</div>
+				<form method="POST" action="connection.php">
+					<li>
+					   <input type="text" name="user" class="text" value="Usuario" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Usuario';}" >
+					   <a href="#" class=" icon user"></a>
+					</li>
+					<li>
+						<input type="password" name="pass" value="Password" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Password';}">
+						<a href="#" class=" icon lock"></a>
+					</li>
+					<div class="p-container">
+								<label class="checkbox"><input type="checkbox" name="checkbox" checked><i></i>Recordarme</label>
+								<input type="submit" name="submit" onclick="myFunction()" value="ENTRAR" >
+							<div class="clear"> </div>
+					</div>
+				</form>
+			</div>
+			<!--//End-login-form-->
+		  <!-----start-copyright---->
+   					<div class="copy-right">
+						<p>Solares Zapopan <a href="http://micoto.com">MiCoto</a></p> 
+					</div>
+				<!-----//end-copyright---->	
+</body>
+</html>
