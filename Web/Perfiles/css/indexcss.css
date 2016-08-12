@@ -1,0 +1,16 @@
+body{
+	background: rgba(34,56,178,.1);
+}
+.title{
+	margin-top:10%;
+	margin-left:20%;
+	color:#4a26d9;
+	font-weight:bold;
+	font-size: 400%;
+}
+.imgPerfil{
+	width:90%;
+	margin:10%;
+	border-radius: 100%;
+	border: solid 4px #25136c;
+}
