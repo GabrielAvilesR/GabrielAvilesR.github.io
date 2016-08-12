@@ -1,0 +1,11 @@
+body{
+	background: rgba(34,56,178,.1);
+}
+
+img,hr{ 
+	border:3px solid rgba(34,56,178,.1);
+}
+
+b {
+  font: oblique bold 100% cursive;
+}
