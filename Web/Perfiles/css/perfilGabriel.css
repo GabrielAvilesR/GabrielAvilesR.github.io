@@ -1,0 +1,25 @@
+body{
+	background: rgba(34,56,178,.1);
+}
+.imgPerfil{
+	width:100%;
+	border-radius:40%;
+	border: solid 2px #135081;
+}
+.title{
+	margin-top:10%;
+	padding:10%;
+	color:#135081;
+	font-weight:bold;
+	font-size:300%;
+}
+.container{
+	background:#ACD2F1;
+}
+.Subtitle{
+	color:#135081;
+
+}
+.text{
+	font-size:120%;
+}
